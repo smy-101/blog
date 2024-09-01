@@ -9,7 +9,7 @@ const { href, title, description } = Astro.props;
 
 <li un-flex="~ col gap-1 items-start">
   <h3 class="post-title!">
-    <a href={`${import.meta.env.BASE_URL}/${href}`}>{title}</a>
+    <a href={`${import.meta.env.BASE_URL}${href}`}>{title}</a>
   </h3>
   <p>{description}</p>
 </li>
