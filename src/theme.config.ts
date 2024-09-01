@@ -6,7 +6,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** website description */
   desc: "发现世界",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://smy-101.github.io/",
   /** your locale */
   locale: "zh-cn",
   /** theme style */
