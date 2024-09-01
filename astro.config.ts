@@ -7,7 +7,8 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: THEME_CONFIG.website,
+  // site: THEME_CONFIG.website,
+  site: "https://smy-101.github.io/",
   base: '/blog',
   prefetch: true,
   markdown: {
