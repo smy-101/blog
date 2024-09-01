@@ -1,14 +1,14 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "@termianl",
   /** your name */
-  author: "Typography",
+  author: "smy-101",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "发现世界",
   /** your deployed domain */
   website: "https://astro-theme-typography.vercel.app/",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
@@ -22,11 +22,11 @@ export const THEME_CONFIG: App.Locals['config'] = {
       href: "/atom.xml",
     },
     {
-      name: "twitter",
+      name: "nintendo-switch",
       href: "https://github.com/moeyua/astro-theme-typography",
     },
     {
-      name: "mastodon",
+      name: "sony-playstation",
       href: "https://github.com/moeyua/astro-theme-typography",
     }
   ],
@@ -59,10 +59,10 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your comment provider */
   comments: {
-    disqus: {
-      // please change this to your disqus shortname
-      shortname: "typography-astro",
-    },
+    // disqus: {
+    //   // please change this to your disqus shortname
+    //   shortname: "typography-astro",
+    // },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
     //   repoId: 'R_kgDOKy9HOQ',
