@@ -8,7 +8,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: THEME_CONFIG.website,
-  base: '/blog_dist',
+  base: '/blog',
   prefetch: true,
   markdown: {
     shikiConfig: {
